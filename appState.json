@@ -1,0 +1,89 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "51b87c4d-1e3a-4a83-af81-87e636077fc2": {
+        "id": "51b87c4d-1e3a-4a83-af81-87e636077fc2",
+        "parent": null,
+        "name": "projectindubindu.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "projectindubindu.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "projectindubindu"
+        },
+        "triggers": []
+      }
+    },
+    "openFiles": [
+      "51b87c4d-1e3a-4a83-af81-87e636077fc2"
+    ],
+    "currentFileId": "51b87c4d-1e3a-4a83-af81-87e636077fc2",
+    "resources": {
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "as2-test-lahiru"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "projectindubindu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585806874198
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "projectindubindu",
+      "url": "https://github.com/Indunil1992/projectindubindu"
+    }
+  }
+}
